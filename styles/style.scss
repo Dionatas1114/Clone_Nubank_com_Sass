@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+$color1: #8a05be;
+$color2: #D57DFF;
+$color3: #ffffff;
+$color4: #530082;
+$color5: #111111;
+$color6: #2d2c2e;
+$color7: #C093FB;
+$color8: #F5F5F5;
+$color9: #615f5f;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+// CONFIGS. DA NAVBAR
+.navbar {
+    padding: 4px !important;
+    font-size: 17px;
+    background-color: $color3;
+    position: sticky;
+    top: 0;
+    border-radius: 0px !important;
+    font-weight: bold;
+}
+
+#logo {
+    margin-left: 12px;
+}
+
+// CONFIGS. DAS CORES DE TEXTO: black, white e purple
+#b {
+    color: $color5;
+}
+
+#w {
+    color: $color3;
+    background-color: $color1;
+    border-color: $color1;
+}
+
+#w:hover {
+    background-color: $color2;
+    border-color: $color2;
+}
+
+#wi {
+    color: $color3;
+}
+
+#p,
+#in {
+    color: $color1;
+}
+
+.nav-link {
+    color: $color9;
+}
+
+#pu,
+#in:hover,
+.nav-link:hover {
+    color: $color2;
+}
+
+// CONFIGS. DOS BOTÕES
+.btn-lg {
+    background-color: $color1;
+    border: $color1;
+    border-radius: 0px !important;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-lg:hover {
+    background-color: $color2;
+    border: $color2;
+}
+
+// CONFIGS. DE TEXTO: SUBLINHADO E NEGRITO
+.lead1 {
+    text-decoration: underline;
+}
+
+.b {
+    font-weight: bold;
+}
+
+// FONTE DOS JUMBOTRONS
+.f {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+// JUMBOTRONS
+.jumbotron1 {
+    color: $color3;
+    background-image: url('https://nubank.com.br/_next/static/images/63c2c4c28143a2ccacb1a84f64b52538-woman-jumping@3x.jpg.webp');
+    background-size: contain;
+    width: 1200px;
+    height: 750px;
+    margin: auto;
+    top: 50px !important;
+    margin-bottom: 120px;
+}
+
+#jb1 {
+    margin-left: 50px;
+    font-size: 45px;
+}
+
+#jb1c {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+#img1 {
+    width: 450px;
+    float: right;
+    margin-top: 160px;
+}
+
+.jumbotron2 {
+    background-color: $color8;
+    margin-left: -100px !important;
+    margin-top: 40px;
+}
+
+#img2 {
+    width: 600px;
+    float: right;
+    margin-top: -150px;
+}
+
+.jumbotron3 {
+    background-color: $color3;
+    margin-left: -100px !important;
+}
+
+#img3 {
+    width: 215px;
+    float: right;
+    margin-top: 40px;
+}
+
+.jumbotron4 {
+    background-color: $color4;
+    margin: 0px;
+    margin-left: -100px !important;
+}
+
+#img4 {
+    width: 370px;
+    float: right;
+}
+
+.jumbotron5,
+.jumbotron6,
+.jumbotron7 {
+    margin: 0px;
+    padding: 0px;
+}
+
+#img5,
+#img6,
+#img7 {
+    max-width: 1633px;
+}
+
+// FOOTER
+.table {
+    background-color: $color5;
+}
+
+.tbody {
+    column-count: 2;
+}
+
+.ulist1,
+.ulist2 {
+    list-style-type: none;
+    font-size: 13pt;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.ulist1 {
+    margin-left: 50px;
+    float: left;
+}
+
+.ulist2 {
+    margin-right: 350px;
+    float: right;
+}
+
+.foot2 {
+    column-count: 3;
+    list-style-type: none;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.logo2 {
+    float: left;
+    margin-left: 20px;
+}
+
+.address {
+    float: left;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.icons {
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    word-spacing: 30px;
+}
+
+.list:hover,
+#icon:hover {
+    color: $color2;
+}
+
+.footForm {
+    text-align: right;
+    margin-right: 40px;
+    word-spacing: 30px;
+}

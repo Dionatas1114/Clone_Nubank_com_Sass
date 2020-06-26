@@ -1,0 +1,224 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  padding: 4px !important;
+  font-size: 17px;
+  background-color: #ffffff;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-radius: 0px !important;
+  font-weight: bold;
+}
+
+#logo {
+  margin-left: 12px;
+}
+
+#b {
+  color: #111111;
+}
+
+#w {
+  color: #ffffff;
+  background-color: #8a05be;
+  border-color: #8a05be;
+}
+
+#w:hover {
+  background-color: #D57DFF;
+  border-color: #D57DFF;
+}
+
+#wi {
+  color: #ffffff;
+}
+
+#p,
+#in {
+  color: #8a05be;
+}
+
+.nav-link {
+  color: #615f5f;
+}
+
+#pu,
+#in:hover,
+.nav-link:hover {
+  color: #D57DFF;
+}
+
+.btn-lg {
+  background-color: #8a05be;
+  border: #8a05be;
+  border-radius: 0px !important;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn-lg:hover {
+  background-color: #D57DFF;
+  border: #D57DFF;
+}
+
+.lead1 {
+  text-decoration: underline;
+}
+
+.b {
+  font-weight: bold;
+}
+
+.f {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+.jumbotron1 {
+  color: #ffffff;
+  background-image: url("https://nubank.com.br/_next/static/images/63c2c4c28143a2ccacb1a84f64b52538-woman-jumping@3x.jpg.webp");
+  background-size: contain;
+  width: 1200px;
+  height: 750px;
+  margin: auto;
+  top: 50px !important;
+  margin-bottom: 120px;
+}
+
+#jb1 {
+  margin-left: 50px;
+  font-size: 45px;
+}
+
+#jb1c {
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+#img1 {
+  width: 450px;
+  float: right;
+  margin-top: 160px;
+}
+
+.jumbotron2 {
+  background-color: #F5F5F5;
+  margin-left: -100px !important;
+  margin-top: 40px;
+}
+
+#img2 {
+  width: 600px;
+  float: right;
+  margin-top: -150px;
+}
+
+.jumbotron3 {
+  background-color: #ffffff;
+  margin-left: -100px !important;
+}
+
+#img3 {
+  width: 215px;
+  float: right;
+  margin-top: 40px;
+}
+
+.jumbotron4 {
+  background-color: #530082;
+  margin: 0px;
+  margin-left: -100px !important;
+}
+
+#img4 {
+  width: 370px;
+  float: right;
+}
+
+.jumbotron5,
+.jumbotron6,
+.jumbotron7 {
+  margin: 0px;
+  padding: 0px;
+}
+
+#img5,
+#img6,
+#img7 {
+  max-width: 1633px;
+}
+
+.table {
+  background-color: #111111;
+}
+
+.tbody {
+  -webkit-column-count: 2;
+          column-count: 2;
+}
+
+.ulist1,
+.ulist2 {
+  list-style-type: none;
+  font-size: 13pt;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.ulist1 {
+  margin-left: 50px;
+  float: left;
+}
+
+.ulist2 {
+  margin-right: 350px;
+  float: right;
+}
+
+.foot2 {
+  -webkit-column-count: 3;
+          column-count: 3;
+  list-style-type: none;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.logo2 {
+  float: left;
+  margin-left: 20px;
+}
+
+.address {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.icons {
+  float: right;
+  margin-top: 40px;
+  margin-right: 40px;
+  font-size: 20px;
+  word-spacing: 30px;
+}
+
+.list:hover,
+#icon:hover {
+  color: #D57DFF;
+}
+
+.footForm {
+  text-align: right;
+  margin-right: 40px;
+  word-spacing: 30px;
+}
+/*# sourceMappingURL=style.css.map */
